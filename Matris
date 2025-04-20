@@ -1,0 +1,28 @@
+Matris Manipülasyonu, Özdeğerler ve Özvektörler ile Makine Öğrenmesi İlişkisi
+📌 Tanımlar
+Matris: Sayıların satır ve sütunlar halinde düzenlenmiş halidir. Matematikte ve bilgisayar bilimlerinde veri temsili, dönüşümler ve işlemler için yaygın olarak kullanılır.
+
+Matris Manipülasyonu: Matrisler üzerinde yapılan toplama, çarpma, transpoz alma, tersini bulma gibi işlemlerdir. Makine öğrenmesinde veriyi işlerken bu tür işlemler çok yaygındır.
+
+Özdeğer (Eigenvalue): Bir matrisin dönüşümü altında yalnızca ölçeklenen vektörlerin (özvektörlerin) ne kadar ölçeklendiğini gösteren skalar değerdir.
+
+Özvektör (Eigenvector): Bir matrisle çarpıldığında yönü değişmeyen, yalnızca ölçeklenen vektörlerdir.
+
+🤖 Makine Öğrenmesi ile İlişkisi
+Makine öğrenmesinde matrisler, verilerin matematiksel temsili olarak kritik rol oynar. Özellikle çok boyutlu veri kümeleri matris biçiminde ele alınır. Bu matrisler üzerinde gerçekleştirilen işlemler, algoritmaların öğrenme ve çıkarım yapmasını sağlar.
+
+Özdeğerler ve özvektörler, özellikle aşağıdaki alanlarda kullanılır:
+
+Boyut indirgeme (PCA - Principal Component Analysis): Özdeğer ve özvektörler kullanılarak yüksek boyutlu veriler daha az boyutlu ancak anlamlı hale getirilir. PCA algoritmasında kovaryans matrisinin özdeğer ve özvektörleri hesaplanır.
+
+Öznitelik çıkarımı ve seçimi: Özvektörler, verideki yönleri veya ana bileşenleri temsil eder; bu da hangi özniteliklerin daha önemli olduğunu ortaya çıkarır.
+
+Yüz tanıma, görüntü işleme: Eigenfaces yöntemi gibi bazı teknikler özdeğerler ve özvektörlere dayanır.
+
+Markov Zincirleri: Geçiş matrislerinin sabit durumu (steady state) özdeğer problemi olarak çözülür.
+
+📚 Kaynaklar
+Brownlee, J. (2021). Introduction to Matrices in Machine Learning. https://machinelearningmastery.com/introduction-matrices-machine-learning/ (Erişim: 7 Nisan 2025)
+
+Brownlee, J. (2021). Introduction to Eigendecomposition, Eigenvalues and Eigenvectors. https://machinelearningmastery.com/introduction-to-eigendecomposition-eigenvalues-and-eigenvectors/ (Erişim: 7 Nisan 2025)
+
