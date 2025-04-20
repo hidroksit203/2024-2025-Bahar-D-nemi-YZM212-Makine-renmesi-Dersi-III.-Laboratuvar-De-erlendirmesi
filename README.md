@@ -1,0 +1,1 @@
+# 2024-2025-Bahar-D-nemi-YZM212-Makine-renmesi-Dersi-III.-Laboratuvar-De-erlendirmesi
