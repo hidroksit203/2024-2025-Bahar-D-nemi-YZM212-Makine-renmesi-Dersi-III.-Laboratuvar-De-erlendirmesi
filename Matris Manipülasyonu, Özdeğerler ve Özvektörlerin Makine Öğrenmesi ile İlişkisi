@@ -1,0 +1,37 @@
+# 2024-2025-Bahar-D-nemi-YZM212-Makine-renmesi-Dersi-III.-Laboratuvar-De-erlendirmesi
+1. Matris Manipülasyonu, Özdeğerler ve Özvektörlerin Makine Öğrenmesi ile İlişkisi
+Temel Tanımlar
+Matris: Sayılarla düzenlenmiş iki boyutlu bir tablodur. Veri temsili, dönüşümler ve hesaplamalar için makine öğrenmesinde temel yapılardır.
+
+Özdeğer (Eigenvalue): Bir matrisin uygulandığı bir vektörün yalnızca skala olarak değiştiği durumlarda bu skala çarpanı özdeğerdir.
+
+Özvektör (Eigenvector): Bir matrisin etkisiyle yönü değişmeyen vektörlerdir. Örneğin bir dönüşüm matrisi uygulandığında yalnızca büyüklüğü değişir.
+
+Matris Manipülasyonu: Matrisler üzerinde toplama, çarpma, ters alma gibi işlemler yapmaktır. Özellikle veriyi ölçeklendirme, normalizasyon, boyut indirgeme gibi işlemlerde kullanılır.
+
+Makine Öğrenmesinde Kullanımı ve İlişkileri
+Makine öğrenmesinde matrisler, verinin ve model parametrelerinin temsili için yoğun olarak kullanılır. Aşağıda bazı önemli ilişkiler özetlenmiştir:
+
+Boyut indirgeme (Dimensionality Reduction): Özellikle Principal Component Analysis (PCA) yöntemi, veri matrisinin kovaryans matrisini oluşturur, ardından bu matrisin özdeğerlerini ve özvektörlerini hesaplar. Bu sayede verideki en fazla varyansı açıklayan bileşenler seçilerek boyut azaltılır.
+
+Özellik çıkarımı (Feature Extraction): Görüntü, ses veya metin gibi yüksek boyutlu verilerde, en anlamlı özelliklerin çıkarılmasında özdeğerler/özvektörler temel alınır.
+
+Öğrenme algoritmaları: Destek vektör makineleri (SVM), yapay sinir ağları (ANN), lineer regresyon gibi algoritmalarda parametre optimizasyonu için matris manipülasyonları gereklidir.
+
+Korelasyon ve kovaryans matrisleri: Verideki değişkenler arasındaki ilişkileri anlamak ve modelleme sürecini yönlendirmek için bu matrislerin özdeğer çözümlemeleri yapılır.
+
+Kullanılan Yöntemler ve Yaklaşımlar
+Eigendecomposition (Öz ayrışım): Bir matrisin, özvektör ve özdeğerleri ile yeniden yazılmasıdır. Özellikle kare ve simetrik matrislerde kullanılır.
+
+Singular Value Decomposition (SVD): Genelleştirilmiş bir yöntemdir. Her tür matris için kullanılabilir ve PCA'nın temelini oluşturur.
+
+Spectral Clustering: Graf temelli kümeleme yöntemidir ve Laplace matrisinin özdeğer analiziyle çalışır.
+
+Referanslar
+Jason Brownlee. Introduction to Matrices for Machine Learning. MachineLearningMastery.
+https://machinelearningmastery.com/introduction-matrices-machine-learning/
+(Erişim: 7 Nisan 2025)
+
+Jason Brownlee. Introduction to Eigendecomposition, Eigenvalues and Eigenvectors. MachineLearningMastery.
+https://machinelearningmastery.com/introduction-to-eigendecomposition-eigenvalues-and-eigenvectors/
+(Erişim: 7 Nisan 2025)
