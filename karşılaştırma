@@ -1,0 +1,13 @@
+oru: Özdeğer ve Özvektörlerin Manuel ve NumPy ile Hesaplanması
+Bu çalışmada, LucasBN’in GitHub reposunda yer alan yöntem temel alınarak bir matrisin özdeğer ve özvektörleri NumPy kütüphanesi kullanılmadan, karakteristik denklem yöntemiyle manuel olarak hesaplanmıştır. Daha sonra, aynı matris üzerinde NumPy’ın numpy.linalg.eig fonksiyonu kullanılmış ve sonuçlar karşılaştırılmıştır.
+
+Yöntem | Özdeğer | Özvektör
+Manuel | 2 | 1,11, 11,1
+Manuel | 3 | 2,12, 12,1
+NumPy | 3.0 | 0.8944,0.44720.8944, 0.44720.8944,0.4472
+NumPy | 2.0 | 0.7071,0.70710.7071, 0.70710.7071,0.7071
+
+Yorum
+Manuel ve NumPy yöntemleri aynı özdeğerleri vermektedir. Özvektörler ise yön olarak aynı, ancak ölçekleri farklıdır. NumPy, özvektörleri normalize ederek (birim uzunlukta) verir. Bu nedenle sayısal değerler farklı görünse de vektörlerin doğrultusu aynıdır.
+
+Bu karşılaştırma, manuel yöntemle yapılan hesaplamaların doğruluğunu ve numpy.linalg.eig fonksiyonunun güvenilirliğini göstermektedir.
